@@ -1,0 +1,107 @@
+using UnityEngine;
+
+[RequireComponent(typeof(Rigidbody))]
+public class PlayerMotor : MonoBehaviour {
+
+	[SerializeField]
+	private Camera cam;
+
+	private Vector3 velocity = Vector3.zero;
+	private Vector3 rotation = Vector3.zero;
+
+	[SerializeField]
+	private float JumpPower = 5f;
+	private bool injumping;
+
+
+	private float cameraRotationX = 0f;
+	private float currentCameraRotationX = 0f;
+
+	[SerializeField]
+	private float cameraRotationLimit = 85f;
+
+	private Rigidbody rb;
+
+	[SerializeField]
+	private float Range=100f;
+	[SerializeField]
+	private LayerMask mask;
+
+
+	void Start ()
+	{
+		rb = GetComponent<Rigidbody>();
+	}
+
+	// Gets a movement vector
+	public void Move (Vector3 _velocity)
+	{
+		velocity = _velocity;
+	}
+
+	// Gets a rotational vector
+	public void Rotate(Vector3 _rotation)
+	{
+		rotation = _rotation;
+	}
+
+	// Gets a rotational vector for the camera
+	public void RotateCamera(float _cameraRotationX)
+	{
+		cameraRotationX = _cameraRotationX;
+	}
+
+	// Run every physics iteration
+	void FixedUpdate ()
+	{
+		PerformMovement();
+		PerformRotation();
+
+	}
+
+	public void performJump()
+	{
+		if (injumping==false) 
+		{
+			rb.velocity = new Vector3 (0f,JumpPower,0);
+		
+		}
+
+
+	}
+
+	//Perform movement based on velocity variable
+	void PerformMovement ()
+	{
+		if (velocity != Vector3.zero)
+		{
+			rb.MovePosition(rb.position + velocity * Time.fixedDeltaTime);
+		}
+			
+	}
+
+	//Perform rotation
+	void PerformRotation ()
+	{
+		rb.MoveRotation(rb.rotation * Quaternion.Euler (rotation));
+		if (cam != null)
+		{
+			// Set our rotation and clamp it
+			currentCameraRotationX -= cameraRotationX;
+			currentCameraRotationX = Mathf.Clamp(currentCameraRotationX, -cameraRotationLimit, cameraRotationLimit);
+
+			//Apply our rotation to the transform of our camera
+			cam.transform.localEulerAngles = new Vector3(currentCameraRotationX, 0f, 0f);
+		}
+	}
+
+	public	void Shoot()
+	{
+		RaycastHit hit;
+		if (Physics.Raycast(cam.transform.position,cam.transform.forward,out hit,Range,mask)) 
+		{
+			Debug.Log (hit.collider.name);
+		}
+	}
+
+}

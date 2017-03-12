@@ -1,0 +1,25 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PlayerController.cs">
+    <Files>
+      <File FileName="Assets\Scripts\sfsChat.cs" Line="242" Column="23" />
+      <File FileName="Assets\Scripts\JSONtransform.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\UserUpdate.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\FlagSpawnPoints.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\BulletProperty.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ShootPower.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\sfsconnection.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PlayerController.cs" Line="31" Column="4" />
+      <File FileName="Assets\Scripts\PlayerMotor.cs" Line="103" Column="32" />
+      <File FileName="Assets\Scenes\test.cs" Line="14" Column="18" />
+      <File FileName="Assets\Scripts\flagUpdation.cs" Line="10" Column="20" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="Assets\ShootPower.cs" line="15" offsetX="1005" offsetY="294" expression="bullets" liveUpdate="False" />
+    <Watch file="Assets\ShootPower.cs" line="16" offsetX="843" offsetY="315" expression="bullets" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+</Properties>

@@ -1,0 +1,4 @@
+sceneSetups:
+- path: F:/SALMAN/projects/Regina/New folder/3d game/Assets/Scenes/Game.unity
+  isLoaded: 1
+  isActive: 1

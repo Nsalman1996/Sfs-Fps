@@ -1,0 +1,34 @@
+Initialize engine version: 5.4.1f1 (649f48bbbf0f)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [nvd3dum.dll 21.21.13.7866]
+    Renderer: NVIDIA GeForce GTX 850M
+    Vendor:   NVIDIA
+    VRAM:     2019 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=0 INTZ=1 NULL=1 RESZ=0 SlowINTZ=0 ATOC=1
+Begin MonoManager ReloadAssembly
+Platform assembly: F:\SALMAN\2nd-Year Module\2nd-Sem\SP4\Prtot1\build1_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading F:\SALMAN\2nd-Year Module\2nd-Sem\SP4\Prtot1\build1_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: F:\SALMAN\2nd-Year Module\2nd-Sem\SP4\Prtot1\build1_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading F:\SALMAN\2nd-Year Module\2nd-Sem\SP4\Prtot1\build1_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: F:\SALMAN\2nd-Year Module\2nd-Sem\SP4\Prtot1\build1_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading F:\SALMAN\2nd-Year Module\2nd-Sem\SP4\Prtot1\build1_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: F:\SALMAN\2nd-Year Module\2nd-Sem\SP4\Prtot1\build1_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading F:\SALMAN\2nd-Year Module\2nd-Sem\SP4\Prtot1\build1_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: F:\SALMAN\2nd-Year Module\2nd-Sem\SP4\Prtot1\build1_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading F:\SALMAN\2nd-Year Module\2nd-Sem\SP4\Prtot1\build1_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: F:\SALMAN\2nd-Year Module\2nd-Sem\SP4\Prtot1\build1_Data\Managed\SmartFox2X 1.dll (this message is harmless)
+Loading F:\SALMAN\2nd-Year Module\2nd-Sem\SP4\Prtot1\build1_Data\Managed\SmartFox2X 1.dll into Unity Child Domain
+Platform assembly: F:\SALMAN\2nd-Year Module\2nd-Sem\SP4\Prtot1\build1_Data\Managed\SmartFox2X.dll (this message is harmless)
+Loading F:\SALMAN\2nd-Year Module\2nd-Sem\SP4\Prtot1\build1_Data\Managed\SmartFox2X.dll into Unity Child Domain
+- Completed reload, in  0.046 seconds
+Platform assembly: F:\SALMAN\2nd-Year Module\2nd-Sem\SP4\Prtot1\build1_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: F:\SALMAN\2nd-Year Module\2nd-Sem\SP4\Prtot1\build1_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.802208 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 84c -> priority: 1 
+  Thread -> id: 27ac -> priority: 1 
